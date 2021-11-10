@@ -66,6 +66,12 @@ a {
     background: #ebebeb;
     border-radius: 50px;
     display: block;
+    transition: 0.4s;
+}
+
+.login:hover {
+    background-color: #f66a15;
+    color: #fff;
 }
 
 .shopping__cart {
@@ -139,11 +145,17 @@ a {
     font-weight: 500;
     font-size: 14px;
     line-height: 23px;
+    transition: 0.4s;
 }
 
 .button__primary {
     background: #f47322;
     color: #ffff;
+}
+
+.button__primary:hover {
+    background-color: #fff;
+    color: #f47322;
 }
 
 .slide__summer {
@@ -159,4 +171,122 @@ a {
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.slider__controlers {
+    position: absolute;
+    z-index: 10;
+    right: 45px;
+    bottom: 40px;
+}
+
+.controler {
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 8px 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(235, 235, 235, 0.7);
+}
+
+.slider__controlers-prev {
+    margin-right: 17px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 570px;
+    height: 380px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-image: url(/img/card1.png);
+    border-radius: 20px;
+    padding: 36px 0 32px 32px;
+    color: #ffff;
+}
+.card__top {
+    margin-bottom: 72px;
+}
+.card__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 21px;
+}
+.card__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    width: 168px;
+    height: 69px;
+}
+/* .card__bottom {
+} */
+.card__price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+.card__description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.card__button {
+    background: #ffffff;
+    border-radius: 50px;
+    padding: 13px 52px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #5f5f61;
+    transition: 0.4s;
+}
+
+.card__button:hover {
+    background: #f47322;
+    color: #fff;
+}
+
+.delivery {
+    margin-top: 110px;
+}
+
+.delevery__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+.food__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.food__card {
+    position: relative;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+}
+.food__card-title {
+    position: absolute;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494f;
+    padding: 5px 10px;
+    background-color: #d0fd89;
+    border-radius: 30px;
+    top: 16px;
+    left: 10px;
 }
