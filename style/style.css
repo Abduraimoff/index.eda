@@ -159,7 +159,7 @@ a {
 }
 
 .slide__summer {
-    background-image: url(/img/summer.png);
+    background-image: url(../img/summer.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -204,7 +204,7 @@ a {
     width: 570px;
     height: 380px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-    background-image: url(/img/card1.png);
+    background-image: url(../img/card1.png);
     border-radius: 20px;
     padding: 36px 0 32px 32px;
     color: #ffff;
