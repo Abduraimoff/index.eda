@@ -11,6 +11,9 @@ body {
 a {
     text-decoration: none;
 }
+ul {
+    list-style: none;
+}
 
 .container {
     max-width: 1194px;
@@ -273,6 +276,7 @@ a {
     margin-bottom: 30px;
 }
 .food__card {
+    cursor: pointer;
     position: relative;
     width: 275px;
     height: 182px;
@@ -290,3 +294,206 @@ a {
     top: 16px;
     left: 10px;
 }
+
+/*  Categories */
+
+.categories {
+    background-color: #f6f6f6;
+    margin-top: 100px;
+    padding: 50px 0 60px 0;
+    position: relative;
+}
+
+.categories__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.categories__tabs {
+    display: flex;
+    margin-bottom: 62px;
+    align-items: center;
+}
+.categories__tabs-item {
+    margin-right: 58px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494f;
+}
+.tabs__item-active {
+    color: #f37321;
+}
+.categories__tabs-item:hover {
+    color: #f37321;
+}
+.categories__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 62px;
+}
+.categories__card {
+    width: 270px;
+    height: 471px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 21px 24px;
+    /* overflow: hidden; */
+}
+.categories__card-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.categories__card-title {
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.categories__card-text {
+    margin-top: 13px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #b9b9be;
+}
+.categories__card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories__card-price {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4b4b51;
+}
+.categories__card-price span {
+    display: block;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #aaaab1;
+}
+.categories__card-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f37321;
+    padding: 15px 25px;
+    border: 2px solid #f37321;
+    border-radius: 33px;
+    transition: 0.4s;
+}
+
+.categories__card-btn:hover {
+    color: #5f5f61;
+    border: 2px solid #5f5f61;
+}
+
+.categories__btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 105px;
+    color: #f37321;
+    border: 2px solid #f37321;
+    border-radius: 33px;
+    transition: 0.4s;
+}
+
+.categories__btn:hover {
+    background-color: #f37321;
+    color: #fff;
+}
+
+/* Benefits  */
+
+.benefits {
+    padding: 100px 0 200px 0;
+}
+.benefits__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.benefits__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.benefits__card {
+    width: 270px;
+    height: 296px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    text-align: center;
+    padding: 30px 0 25px 0;
+}
+
+.benefits__card-title {
+    margin-top: 34px;
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    padding: 0 55px;
+}
+.benefits__card-text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #49494f;
+    padding: 0 24px;
+}
+
+/* Footer */
+
+.footer {
+    background: #f6f6f6;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.footer__content {
+    display: flex;
+    align-items: center;
+}
+.footer__info {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.footer__info-item {
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-right: 50px;
+}
+.footer__socials {
+    display: flex;
+    align-items: center;
+}
+.footer__socials-item {
+    text-align: center;
+    background: #c4c4c4;
+    border-radius: 50%;
+    padding: 5.6px 5.6px;
+    margin-right: 25px;
+}
+/* .footer__socials-link {
+}
+.footer__socials-img {
+} */

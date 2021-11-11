@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/fi-rr-shopping-cart.svg">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +17,12 @@
 <body>
     <header class="header container">
         <a class="logo" href="#">
-            <img class="logo__img" src="../img/logo.png" alt="logo" width="128">
+            <img class="logo__img" src="img/logo.png" alt="logo" width="128">
         </a>
-        <form class="search__form" action="">
+        <form class="search__form">
             <input class="search__input" type="search" placeholder="Блюда">
             <button class="search__button">
-                <img class="search__icon" src="../img/search-icon.svg" alt="search">
+                <img class="search__icon" src="img/search-icon.svg" alt="search">
             </button>
         </form>
         <div class="auth">
@@ -29,7 +30,7 @@
         </div>
         <!-- /.auth -->
         <a class="shopping__cart" href="#">
-            <img src="../img/fi-rr-shopping-cart.svg" alt="cart">
+            <img src="img/fi-rr-shopping-cart.svg" alt="cart">
             <span class="shopping__counter">12</span>
         </a>
     </header>
@@ -44,10 +45,10 @@
                 </div>
                 <div class="slider__controlers">
                     <button class="slider__controlers-prev controler">
-                        <img src="../img/prev.svg" alt="prev">
+                        <img src="img/prev.svg" alt="prev">
                     </button>
                     <button class="slider__controlers-next controler">
-                        <img src="../img/next.svg" alt="prev">
+                        <img src="img/next.svg" alt="prev">
                     </button>
                 </div>
             </div>
@@ -82,42 +83,158 @@
         <div class="food__cards">
             <div class="food__card">
                 <h5 class="food__card-title">ЗОЖ</h5>
-                <img class="food__card-img" src="../img/food-card1.png" alt="">
+                <img class="food__card-img" src="img/food-card1.png" alt="">
             </div>
             <div class="food__card">
                 <h5 class="food__card-title">Овощное</h5>
-                <img class="food__card-img" src="../img/food-card2.png" alt="">
+                <img class="food__card-img" src="img/food-card2.png" alt="">
             </div>
             <div class="food__card">
                 <h5 class="food__card-title">Мясное</h5>
-                <img class="food__card-img" src="../img/food-card3.png" alt="">
+                <img class="food__card-img" src="img/food-card3.png" alt="">
             </div>
             <div class="food__card">
                 <h5 class="food__card-title">Птица</h5>
-                <img class="food__card-img" src="../img/food-card4.png" alt="">
+                <img class="food__card-img" src="img/food-card4.png" alt="">
             </div>
         </div>
         <div class="food__cards">
             <div class="food__card">
                 <h5 class="food__card-title">Рыбное</h5>
-                <img class="food__card-img" src="../img/food-card3.png" alt="">
+                <img class="food__card-img" src="img/food-card3.png" alt="">
             </div>
             <div class="food__card">
                 <h5 class="food__card-title">Детское</h5>
-                <img class="food__card-img" src="../img/food-card2.png" alt="">
+                <img class="food__card-img" src="img/food-card2.png" alt="">
             </div>
             <div class="food__card">
                 <h5 class="food__card-title">Родителям</h5>
-                <img class="food__card-img" src="../img/food-card4.png" alt="">
+                <img class="food__card-img" src="img/food-card4.png" alt="">
             </div>
             <div class="food__card">
                 <h5 class="food__card-title">Праздничное</h5>
-                <img class="food__card-img" src="../img/food-card1.png" alt="">
+                <img class="food__card-img" src="img/food-card1.png" alt="">
             </div>
         </div>
     </section>
-
-
+    <section class="categories">
+        <div class="container">
+            <h3 class="categories__title">Категории блюд</h3>
+            <ul class="categories__tabs">
+                <li><a class="categories__tabs-item tabs__item-active" href="#">Популярные блюда</a></li>
+                <li><a class="categories__tabs-item" href="#">Овощное</a></li>
+                <li><a class="categories__tabs-item" href="#">Мясное</a></li>
+            </ul>
+            <div class="categories__cards">
+                <div class="categories__card">
+                    <img class="categories__card-img" src="img/categories.png" alt="">
+                    <h5 class="categories__card-title">Куриные крылья под соусом Терияки</h5>
+                    <p class="categories__card-text">Соус Терияки придумали повора из Японии. По традиции его используют
+                        в
+                        качестве маринада для...</p>
+                    <div class="categories__card-footer">
+                        <p class="categories__card-price">260 ₽ <span>500 гр</span></p>
+                        <a class="categories__card-btn" href="#">В корзину</a>
+                    </div>
+                </div>
+                <div class="categories__card">
+                    <img class="categories__card-img" src="img/categories.png" alt="">
+                    <h5 class="categories__card-title">Куриные крылья под соусом Терияки</h5>
+                    <p class="categories__card-text">Соус Терияки придумали повора из Японии. По традиции его используют
+                        в
+                        качестве маринада для...</p>
+                    <div class="categories__card-footer">
+                        <p class="categories__card-price">260 ₽ <span>500 гр</span></p>
+                        <a class="categories__card-btn" href="#">В корзину</a>
+                    </div>
+                </div>
+                <div class="categories__card">
+                    <img class="categories__card-img" src="img/categories.png" alt="">
+                    <h5 class="categories__card-title">Куриные крылья под соусом Терияки</h5>
+                    <p class="categories__card-text">Соус Терияки придумали повора из Японии. По традиции его используют
+                        в
+                        качестве маринада для...</p>
+                    <div class="categories__card-footer">
+                        <p class="categories__card-price">260 ₽ <span>500 гр</span></p>
+                        <a class="categories__card-btn" href="#">В корзину</a>
+                    </div>
+                </div>
+                <div class="categories__card">
+                    <img class="categories__card-img" src="img/categories.png" alt="">
+                    <h5 class="categories__card-title">Куриные крылья под соусом Терияки</h5>
+                    <p class="categories__card-text">Соус Терияки придумали повора из Японии. По традиции его используют
+                        в
+                        качестве маринада для...</p>
+                    <div class="categories__card-footer">
+                        <p class="categories__card-price">260 ₽ <span>500 гр</span></p>
+                        <a class="categories__card-btn" href="#">В корзину</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a class="categories__btn" href="#">Больше блюд</a> -->
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="container">
+            <h3 class="benefits__title">Наши преимущества</h3>
+            <div class="benefits__cards">
+                <div class="benefits__card">
+                    <img class="benefits__card-img" src="img/benefits1.svg" alt="">
+                    <h5 class="benefits__card-title">Какой путь проходит ваша еда</h5>
+                    <p class="benefits__card-text">Вы делаете заказ на коробку с недельным запасом полуфабрикатов и
+                        готовых блюд для всей семьи</p>
+                </div>
+                <div class="benefits__card">
+                    <img class="benefits__card-img" src="img/benefits2.svg" alt="">
+                    <h5 class="benefits__card-title">Как происходит производство</h5>
+                    <p class="benefits__card-text">Вы делаете заказ на коробку с недельным запасом полуфабрикатов и
+                        готовых блюд для всей семьи</p>
+                </div>
+                <div class="benefits__card">
+                    <img class="benefits__card-img" src="img/benefits3.svg" alt="">
+                    <h5 class="benefits__card-title">Какой путь проходит ваша еда</h5>
+                    <p class="benefits__card-text">Вы делаете заказ на коробку с недельным запасом полуфабрикатов и
+                        готовых блюд для всей семьи</p>
+                </div>
+                <div class="benefits__card">
+                    <img class="benefits__card-img" src="img/benefits4.svg" alt="">
+                    <h5 class="benefits__card-title">Какой путь проходит ваша еда</h5>
+                    <p class="benefits__card-text">Вы делаете заказ на коробку с недельным запасом полуфабрикатов и
+                        готовых блюд для всей семьи</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <a class="footer__logo" href="#">
+                    <img class="logo__img" src="img/logo.png" alt="logo" width="128">
+                </a>
+                <ul class="footer__info">
+                    <li class="footer__info-item">Доставка и оплата</li>
+                    <li class="footer__info-item">Напишите нам</li>
+                </ul>
+                <ul class="footer__socials">
+                    <li class="footer__socials-item">
+                        <a class="footer__socials-link" href="#">
+                            <img class="footer__socials-img" src="img/telegram.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a class="footer__socials-link" href="#">
+                            <img class="footer__socials-img" src="img/wk.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a class="footer__socials-link" href="#">
+                            <img class="footer__socials-img" src="img/instagram.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
